@@ -13,7 +13,7 @@ zstyle ':vcs_info:*' formats "%F{green}%c%u[%b]%f"
 zstyle ':vcs_info:*' actionformats '[%b|%a]'
 precmd () { vcs_info }
 
-PROMPT='%B${vcs_info_msg_0_}%F{yellow}[%~]%f%b
+PROMPT='%B${vcs_info_msg_0_}%F{magenta}[%~]%f%b
 %B[%n]%F{yellow}%%%f%b '
 #RPROMPT
 
